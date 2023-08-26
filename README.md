@@ -19,11 +19,7 @@ EduQuiz is a web application that facilitates collaborative learning through int
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/eduquiz.git`
-2. Install dependencies: `npm install`
-3. Set up the database: Create a MongoDB database and update the connection string in `config.js`.
-4. Start the server: `npm start`
-5. Access the application: Open your web browser and visit `http://localhost:3000`
+1. Clone the repository: `git clone https://github.com/bhanu-dev82/eduquiz.git`
 
 ## Usage
 
