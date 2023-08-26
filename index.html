@@ -1,0 +1,32 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EduQuiz</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to EduQuiz</h1>
+  </header>
+
+  <main>
+    <div id="quiz-container">
+      <h2>Quiz Title</h2>
+      <p>Question 1: What is the capital of France?</p>
+      <input type="radio" name="q1" value="a"> a) Paris<br>
+      <input type="radio" name="q1" value="b"> b) London<br>
+      <input type="radio" name="q1" value="c"> c) Rome<br>
+      <input type="radio" name="q1" value="d"> d) Madrid<br>
+      <button onclick="submitQuiz()">Submit</button>
+    </div>
+
+    <div id="result-container" style="display: none;">
+      <h2>Quiz Result</h2>
+      <p id="result"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
